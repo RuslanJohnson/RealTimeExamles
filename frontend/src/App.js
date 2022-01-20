@@ -1,10 +1,10 @@
 import "./App.scss";
-import LongPulling from "./components/LongPulling";
+import EventSourcing from "./components/EventSourcing";
 
 function App() {
 	return (
 		<div className="App">
-			<LongPulling />
+			<EventSourcing />
 		</div>
 	);
 }
