@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm i -prefix frontend",
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-frontend\"",
+    "dev-server": "nodemon index.js",
+    "dev-frontend": "npm run start -prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "ws": "^8.4.2"
+  }
+}
