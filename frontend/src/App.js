@@ -1,10 +1,10 @@
 import "./App.scss";
-import EventSourcing from "./components/EventSourcing";
+import WebSockets from "./components/WebSockets";
 
 function App() {
 	return (
 		<div className="App">
-			<EventSourcing />
+			<WebSockets />
 		</div>
 	);
 }
