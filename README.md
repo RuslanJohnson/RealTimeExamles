@@ -1,3 +1,7 @@
+#### 0. Navigate by branches 
+
+There are different approaches implementations
+
 #### 1. Install all packages by
 
 `npm i`
